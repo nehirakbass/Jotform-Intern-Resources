@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  transition: all(1000ms);
+}
+
+.blurred-bg {
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://media.glassdoor.com/l/3e/7b/ea/68/new-turkey-office.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  margin: 0px;
+  display: block;
+  overflow: hidden;
+  -webkit-filter: blur(4px);
+  position: fixed;
+  transform: scale(1.02);
+}
+
+.inter{
+  margin-top: 17%;
+}
+
+.add-res-form {
+  margin-top: 4%;
+}
+
+.login {
+  background: url("/Components/g-button.svg");
+  background-size: 100px 82px;
+  display: block;
+}
+
+.content-2{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.6);
+  color: #deebff;
+  border: none;
+  display: inline;
+  border-width: 0.1px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 60%;
+  width: 45%;
+  padding: 150px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.content-2 .text{
+  display: block;
+  font-size: 23px;
+}
+
+.content-2 .login{
+  margin-top: 3%;
+  text-align: center;
+  font-size: 23px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.navBar {
+  background-color: rgba(14,15,20,0.95);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0;
+}
+
+.navBar-logo {
+  flex: 0 1 10%;
+  background-image: url(./Assets/0.jflogo@2x.png);
+
+  height: 55px;
+
+  background-size: contain;
+
+  display: inline-block;
+
+  background-size: contain;
+
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+.navBar-col {
+  flex: 0 1 45%;
+}
+
+.navBar-col.second { text-align: right; }
+
+
+.navBar .link{
+  /* float: left; */
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.navBar .link:hover{
+  background-color: #ddd;
+  color: black;
+  transition-duration: 250ms;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.navBar-2 .link{
+  float: right;
+}
+
+.mainPage {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #EEEFF1;
+  position: fixed;
+  overflow: hidden;
+}
+
+.mainPage .link{
+  margin: 4%;
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+.mainPage h1{
+  margin: 12%;
+}
+
+.ui.dropdown {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  outline: 0;
+  text-align: left;
+  transition: box-shadow .1s ease,width .1s ease;
+  -webkit-tap-highlight-color: transparent;
+  margin: 8px;
+}
+
+.mainPage-2 {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: unset;
+  background-color: #EEEFF1;
+}
+
+.mainPage-2 .link{
+  margin: 4%;
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+
+.mainPage-2 h1{
+  margin: 12%;
+}
+
+.manualForm {
+  text-align: left;
+  box-sizing: border-box;
+  margin-bottom: 8%;
+}
+
+.resource-form input {
+  display: block;
+  width: 100%;
+  border: 1px solid;
+  font-size: 18px;
+  margin: 1%;
+}
+
+.test-3 {
+  padding: 10px;
+  border-bottom: 1px solid #d4d4d5;
+  margin-bottom: 10px;
+}
+
+.ui.icon.labeled.vertical.buttons {
+  min-width: 145px;
+}
+
+.dropdown {
+  margin-top: 1%;
+}
+
+.resource-form a {
+  font-size: 14px;
+}
+
+.go-back-button {
+  margin-top: 10%;
+}
+
+.comment-text{
+  display: inline-block;
+}
+
+.res-info1{
+  text-align: right;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+
+.test-2 {
+  margin-top: -7%;
+}
+
+.welcome-card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.welcome-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.welcome-content{
+  padding: 2px 16px;
+}
+
+.search-bar {
+  display: inline-flex;
+}
+
+.single-res-page {
+  margin-top: 2%;
+}
+
+.ui.mini.modal {
+  padding: 1em;
+}
+
+.ui.comments .comment .avatar {
+  width: 2.5em;
+  align-self: flex-end;
+}
+
+div.ui.comments .comment > .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-logo {
+  background-image: url(/Assets/Login@3x.png);
+  background-size: contain;
+  height: 55px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
