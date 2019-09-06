@@ -2,7 +2,7 @@ import firebase from 'firebase'
 
 const fireConfig = {
     apiKey: "AIzaSyCCZ98vuexKnoR7_lEAaJW2WeI1-IY3akU",
-    authDomain: "jotformproject-1563801277969.firebaseapp.com",
+    authDomain: "https://jotform-intern-resources.nehirakbas08.now.sh",
     databaseURL: "https://jotformproject-1563801277969.firebaseio.com",
     projectId: "jotformproject-1563801277969",
     storageBucket: "jotformproject-1563801277969.appspot.com",
